@@ -1,4 +1,7 @@
-env
+output/
+__pycache__/
 .cache
-output
-OAI_CONFIG_LIST.json
+*.py[cod]
+*$py.class
+cl_output.txt
+chat_results.txt
