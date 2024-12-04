@@ -1,10 +1,10 @@
-# SDLC Agency with Test-Driven Development
+# Software Development Life Cycle Agency with Test-Driven Development – Shorthand: SDLC/TDD Agency
 
-A sophisticated AutoGen-based agency that implements a complete Software Development Life Cycle (SDLC) workflow with Test-Driven Development (TDD) principles. This agency orchestrates multiple AI agents to collaborate on software development projects, from requirements gathering to deployment.
+An experimental AutoGen-based project exploring how multiple AI agents could potentially collaborate in a software development workflow. This prototype implements a Test-Driven Development (TDD) approach through agent orchestration.
 
 ## Overview
 
-The SDLC Agency provides an automated, self-improving approach to software development by coordinating specialized AI agents, each with distinct roles and responsibilities. The workflow follows TDD principles, ensuring high-quality, well-tested code through continuous collaboration between agents.
+The SDLC/TDD Agency investigates the possibilities of automating software development workflows using specialized AI agents. By implementing a basic Software Development Life Cycle (SDLC) with Test-Driven Development (TDD) principles, we explore how different agents might collaborate, learn, and potentially improve the development process.
 
 ## Architecture
 
@@ -32,7 +32,7 @@ The SDLC Agency provides an automated, self-improving approach to software devel
 ### Directory Structure
 
 ```
-sdlc_agency/
+sdlc-tdd-agency/
 ├── main.py              # Main entry point
 ├── agency.md           # Agency definition and guidelines
 ├── src/
@@ -42,30 +42,38 @@ sdlc_agency/
     └── docs/           # Generated documentation
 ```
 
-## Features
+## Current Capabilities
 
-- **Automated Workflow Management**
+- **Basic Workflow Automation (Experimental)**
 
-  - Task breakdown and assignment
-  - Progress tracking
-  - Conflict resolution
+  - Task breakdown and assignment between agents
+  - Initial progress tracking implementation
+  - Basic conflict resolution patterns
 
-- **Test-Driven Development**
+- **Test-Driven Development Exploration**
 
-  - Automated test creation
-  - Test execution and reporting
-  - Code quality assurance
+  - Proof-of-concept test creation
+  - Basic test execution and reporting
+  - Initial code quality checks
 
 - **Documentation Management**
 
-  - Automated documentation generation
-  - Version control
-  - Project context tracking
+  - Basic documentation generation
+  - Simple version tracking
+  - Project context experiments
 
-- **Continuous Improvement**
-  - Memory management through Mem0
-  - Learning from previous interactions
-  - Workflow optimization
+- **Learning Mechanisms (In Development)**
+  - Early-stage memory management through Mem0
+  - Basic pattern recognition from interactions
+  - Experimental workflow adaptations
+
+## Research Goals
+
+This project aims to explore several key questions:
+
+1. How effectively can AI agents collaborate in a software development context?
+2. What are the limitations and challenges of current LLM-based agents in SDLC?
+3. How might TDD principles be automated through multi-agent systems?
 
 ## Usage
 
@@ -137,94 +145,94 @@ The agency generates:
 - Code files
 - Test reports
 
-## Contributing
+## Current Limitations
 
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a new Pull Request
+- Agents may sometimes produce inconsistent or incorrect outputs
+- Complex decision-making still requires human oversight
+- Limited understanding of broader project context
+- Experimental nature means workflows may need frequent adjustment
 
 ## Next Steps
 
-The SDLC Agency is evolving to provide a comprehensive software development solution. Our roadmap focuses on three key areas: expanding the agent team, enhancing multi-agent system capabilities, and improving user interaction.
+This experimental project is continuously evolving as we explore different approaches to AI-assisted software development. Current areas of investigation include:
 
-### 1. Agent Team Expansion
+### 1. Agent Team Expansion (Experimental)
 
-Currently, the agency operates with four core agents: User Proxy (Admin), Project Manager, Coder, and Tester. To create a complete SDLC workflow, we plan to introduce five additional specialized agents:
+Currently, the agency operates with four core agents: User Proxy (Admin), Project Manager, Coder, and Tester. We're exploring the addition of specialized agents to study how they might enhance the SDLC workflow:
 
 1. **Requirement Analyst Agent**
 
-   - **Role:** Gather and refine business requirements.
-   - **Responsibilities:** Collect user stories, acceptance criteria, and functional requirements.
+   - **Role:** Gather and refine business requirements
+   - **Research Focus:** Testing automated requirement analysis and user story generation
+   - **Current State:** Early prototype stage
 
 2. **Design Architect Agent**
 
-   - **Role:** Develop system architecture and design.
-   - **Responsibilities:** Create architecture diagrams and design specifications.
+   - **Role:** Develop system architecture and design
+   - **Research Focus:** Exploring automated architecture decisions and trade-offs
+   - **Current State:** Concept development
 
 3. **Documentation Agent**
 
-   - **Role:** Manage detailed and ongoing documentation.
-   - **Responsibilities:** Document system design, user manuals, and test documentation.
+   - **Role:** Manage detailed and ongoing documentation
+   - **Research Focus:** Testing automated documentation generation and maintenance
+   - **Current State:** Basic implementation
 
 4. **Reviewer Agent**
 
-   - **Role:** Conduct code reviews to ensure quality and adherence to standards.
-   - **Responsibilities:** Review code, identify improvements, and ensure compliance.
+   - **Role:** Conduct code reviews to ensure quality
+   - **Research Focus:** Studying automated code analysis patterns
+   - **Current State:** Prototype testing
 
 5. **Deployment Agent**
-   - **Role:** Automate the deployment process and ensure smooth integration.
-   - **Responsibilities:** Implement CI/CD pipelines and manage rollbacks.
+   - **Role:** Automate the deployment process
+   - **Research Focus:** Investigating CI/CD automation patterns
+   - **Current State:** Initial planning
 
 ### 2. Multi-Agent System Enhancements
 
-To support the expanded agent team and improve overall functionality, we plan to implement:
+To support the expanded agent team and improve overall functionality, we plan to investigate:
 
-- **Enhanced Collaboration:** Improved communication protocols and coordination between agents
-- **Memory Management:** Advanced implementation of Mem0 for better learning and adaptation
-- **Workflow Optimization:** Streamlined processes for handling complex projects
-- **Scalability Improvements:** Enhanced capability to handle larger projects and teams
+- **Enhanced Collaboration:** Improved communication protocols between agents
+- **Memory Management:** Advanced implementation of Mem0 for better learning
+- **Workflow Optimization:** Testing different process patterns
+- **Scalability Improvements:** Exploring methods to handle larger projects
 
 ### 3. User Interface Development
 
-To make the system more accessible and user-friendly, we're evaluating several interface options, each with distinct advantages:
+We're evaluating several interface options for research purposes:
 
 1. **Streamlit**
 
-   - **Description:** Python-based framework for rapid development of clean, simple interfaces
-   - **Best for:** Quick prototyping and straightforward chat interactions
-   - **Advantage:** Minimal setup time and easy deployment
+   - **Description:** Python-based framework for rapid prototyping
+   - **Research Value:** Quick iteration on interaction patterns
+   - **Current Status:** Initial testing
 
 2. **Gradio**
 
-   - **Description:** AI-focused interface framework with built-in chat components
-   - **Best for:** ML/AI application demonstrations
-   - **Advantage:** Specialized for AI model interactions
+   - **Description:** AI-focused interface framework
+   - **Research Value:** Specialized AI model interactions
+   - **Current Status:** Under evaluation
 
 3. **Dash**
 
    - **Description:** Framework combining Flask, Plotly, and React
-   - **Best for:** Data-rich applications requiring sophisticated visualizations
-   - **Advantage:** Balance of customization and development speed
+   - **Research Value:** Data visualization experiments
+   - **Current Status:** Concept phase
 
 4. **TS/React**
    - **Description:** Full-featured web application framework
-   - **Best for:** Complex, scalable applications
-   - **Advantage:** Maximum customization and scalability potential
-
-The interface choice will be based on user feedback and specific requirements as the project evolves.
+   - **Research Value:** Complex interaction patterns
+   - **Current Status:** Future consideration
 
 ### Implementation Strategy
 
-We'll follow a phased approach:
+We'll follow an experimental approach:
 
-1. Integrate new agents one at a time, ensuring stable operation
-2. Implement multi-agent system enhancements incrementally
-3. Develop and test the chosen interface solution
-4. Gather user feedback and iterate on improvements
-
-This structured expansion will ensure that each addition contributes to a more robust and efficient software development workflow.
+1. Test new agents individually in controlled environments
+2. Study multi-agent interactions through incremental integration
+3. Prototype and evaluate interface solutions
+4. Gather data on agent behaviors and effectiveness
 
 ## License
 
