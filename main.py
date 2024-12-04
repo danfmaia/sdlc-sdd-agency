@@ -1,7 +1,7 @@
 import os
 from autogen import GroupChat, GroupChatManager
-from agents import user_proxy, project_manager, coder_agent, tester_agent
-from tools import register_tools
+from src.agents import user_proxy, project_manager, coder_agent, tester_agent
+from src.tools import register_tools
 
 # Register tools for execution
 register_tools(user_proxy, project_manager, coder_agent, tester_agent)
