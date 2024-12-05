@@ -1,4 +1,4 @@
-# Software Development Life Cycle Agency with Test-Driven Development – Shorthand: SDLC/TDD Agency
+# Software Development Life Cycle Agency with Test-Driven Development (SDLC/TDD Agency)
 
 An experimental AutoGen-based project exploring how multiple AI agents could potentially collaborate in a software development workflow. This prototype implements a Test-Driven Development (TDD) approach through agent orchestration.
 
