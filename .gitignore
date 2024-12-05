@@ -4,3 +4,4 @@ __pycache__/
 *$py.class
 cl_output.txt
 chat_results.txt
+venv/
