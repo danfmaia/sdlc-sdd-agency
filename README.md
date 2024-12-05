@@ -172,19 +172,19 @@ Currently, the agency operates with four core agents: User Proxy (Admin), Projec
    - **Research Focus:** Exploring automated architecture decisions and trade-offs
    - **Current State:** Concept development
 
-3. **Documentation Agent**
+3. **Docs Maintainer Agent**
 
    - **Role:** Manage detailed and ongoing documentation
    - **Research Focus:** Testing automated documentation generation and maintenance
    - **Current State:** Basic implementation
 
-4. **Reviewer Agent**
+4. **Code Reviewer Agent**
 
    - **Role:** Conduct code reviews to ensure quality
    - **Research Focus:** Studying automated code analysis patterns
    - **Current State:** Prototype testing
 
-5. **Deployment Agent**
+5. **DevOps Agent**
    - **Role:** Automate the deployment process
    - **Research Focus:** Investigating CI/CD automation patterns
    - **Current State:** Initial planning

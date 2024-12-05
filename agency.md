@@ -44,7 +44,7 @@ This document outlines the structure and operation of a self-improving Software 
 
 ---
 
-### **5. Documentation Agent**
+### **5. Docs Maintainer Agent**
 
 - **Role:** Manages detailed and ongoing documentation across the SDLC.
 - **Responsibilities:**
@@ -54,7 +54,7 @@ This document outlines the structure and operation of a self-improving Software 
 
 ---
 
-### **6. Developer Agent**
+### **6. Coder Agent**
 
 - **Role:** Writes code following a TDD approach, ensuring features are test-driven.
 - **Responsibilities:**
@@ -76,7 +76,7 @@ This document outlines the structure and operation of a self-improving Software 
 
 ---
 
-### **8. Reviewer Agent**
+### **8. Code Reviewer Agent**
 
 - **Role:** Conducts code reviews to ensure quality, consistency, and adherence to standards.
 - **Responsibilities:**
@@ -87,7 +87,7 @@ This document outlines the structure and operation of a self-improving Software 
 
 ---
 
-### **9. Deployment Agent**
+### **9. DevOps Agent**
 
 - **Role:** Automates the deployment process and ensures smooth integration.
 - **Responsibilities:**
